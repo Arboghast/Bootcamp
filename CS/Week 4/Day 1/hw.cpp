@@ -10,7 +10,7 @@ public:
     int ping(int t) {
         if(counter.size() != 0)
         {
-            end++;//bugged
+            end++;//bugged 
         }
         counter.push_back(t);
         while(counter[end]-counter[start] > 3000){
